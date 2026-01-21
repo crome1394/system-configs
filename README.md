@@ -10,30 +10,30 @@ This repository contains sanitized system files for reference:
 - common_flatpaks: List of useful flatpaks
 - common_packages: List of system packages to install
 - bash_aliases:  a list of useful aliases and functions
-	HELP           : Shows this help
-	DSTATS         : Checking the size and number of files of a specific directory
-	PROFILE_BACKUP : Backs up the current user' profile to tera-b
-	WEB            : Starts Brave Browser
-	TEMPS          : Shows the system & CPU temperatures in real time
-	GENPASSWD      : Generates a random password
-	LOGS           : Shows the /var/log directory and subdirectories in realtime
-	UPDATEOS       : Updates the OS
-	FLATSEAL       : Starts Flatseal
-	AUDACIOUS      : Starts Audacious
-	MAKEMKV        : Starts MakeMKV
-	SC             : Starts SpeedCrunch
-	GHB            : Starts handbrake & set CPU to 75%
-	OBSIDIAN       : Starts Obsidian
-	PORT           : Shows the network sockets, with a focus on listening ports and associated processes
-	GAMEMODE       : Sets Nvidia & CPU to performance
-	WORKMODE       : Sets Nvidia & CPU to balanced
-	SET_CHROME     : Sets Chrome as the default browser
-	SET_BRAVE      : Sets Brave as the default browser
-	KR             : Set the keyboard rate
-	COUNT          : Count the number of files
-	IPCA           : Show the IPs, MAC Addresses & Adapters in Color
-	PROC           : Show a comprehensive visually structured overview of the entire prorcess hierarchy on the system
-	PUBIP          : Shows my Public IP
+	- HELP           : Shows this help
+	- DSTATS         : Checking the size and number of files of a specific directory
+	- PROFILE_BACKUP : Backs up the current user' profile to tera-b
+	- WEB            : Starts Brave Browser
+	- TEMPS          : Shows the system & CPU temperatures in real time
+	- GENPASSWD      : Generates a random password
+	- LOGS           : Shows the /var/log directory and subdirectories in realtime
+	- UPDATEOS       : Updates the OS
+	- FLATSEAL       : Starts Flatseal
+	- AUDACIOUS      : Starts Audacious
+	- MAKEMKV        : Starts MakeMKV
+	- SC             : Starts SpeedCrunch
+	- GHB            : Starts handbrake & set CPU to 75%
+	- OBSIDIAN       : Starts Obsidian
+	- PORT           : Shows the network sockets, with a focus on listening ports and associated processes
+	- GAMEMODE       : Sets Nvidia & CPU to performance
+	- WORKMODE       : Sets Nvidia & CPU to balanced
+	- SET_CHROME     : Sets Chrome as the default browser
+	- SET_BRAVE      : Sets Brave as the default browser
+	- KR             : Set the keyboard rate
+	- COUNT          : Count the number of files
+	- IPCA           : Show the IPs, MAC Addresses & Adapters in Color
+	- PROC           : Show a comprehensive visually structured overview of the entire prorcess hierarchy on the system
+	- PUBIP          : Shows my Public IP
 
 ## Usage
 Copy files to your system with caution and adapt as needed.
