@@ -38,7 +38,15 @@ This repository contains sanitized system files for reference:
 ## Usage
 Copy files to your system with caution and adapt as needed.
 
-```bash
 # Download Directly
 curl -fsSL https://raw.githubusercontent.com/crome1394/system-configs/main/.bash_aliases -o ~/.bash_aliases
 
+# Execute the following to update nano
+mkdir ~/.config/nano
+echo "set linenumbers" > ~/.config/nano/nanorc
+echo "set constantshow" >> ~/.config/nano/nanorc
+
+# Modify the ~/.config/cosmic/com.system76.CosmicSettings.Wallpaper/v1/custom-images
+[
+    "/home/crome/.wallpapers/1.jpg",
+]
