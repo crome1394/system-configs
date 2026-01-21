@@ -47,10 +47,8 @@ mkdir ~/.config/nano
 echo "set linenumbers" > ~/.config/nano/nanorc
 echo "set constantshow" >> ~/.config/nano/nanorc
 
-# Modify the ~/.config/cosmic/com.system76.CosmicSettings.Wallpaper/v1/custom-images
-[
-    "/home/crome/.wallpapers/1.jpg",
-]
+# Custom Wallpapers:  Commit the "custom-images" file to the following file
+sudo nano ~/.config/cosmic/com.system76.CosmicSettings.Wallpaper/v1/custom-images
 
-# Keyboard Shortcuts:  Replace the "custom" file in the following path
+# Keyboard Shortcuts:  Commit the the "custom" file in the following file
 sudo nano ~/.config/cosmic/com.system76.CosmicSettings.Shortcuts/v1/custom
