@@ -1,0 +1,42 @@
+{
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Scroll_Lock",
+    ): Spawn("cosmic-settings"),
+    (
+        modifiers: [
+            Ctrl,
+        ],
+        key: "Print",
+        description: Some("Flameshot"),
+    ): Spawn("flatpak run org.flameshot.Flameshot gui"),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "d",
+    ): System(WorkspaceOverview),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "w",
+    ): System(WorkspaceOverview),
+    (
+        modifiers: [
+            Ctrl,
+            Shift,
+        ],
+        key: "c",
+        description: Some("SpeedCrunch"),
+    ): Spawn("flatpak run org.speedcrunch.SpeedCrunch"),
+    (
+        modifiers: [
+            Ctrl,
+            Shift,
+        ],
+        key: "e",
+    ): ToggleSticky,
+}
