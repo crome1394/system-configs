@@ -1,0 +1,5 @@
+# Copy this file to ~/.config/nano/
+# filename nanorc
+
+set linenumbers
+set constantshow
