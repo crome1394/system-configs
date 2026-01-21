@@ -1,4 +1,22 @@
-# Ignore thumbnails and backups
-Thumbs.db
+# This file tells Git which files/patterns to ignore in this repository.
+# Only explicitly negated (!) files are tracked; everything else is ignored by default.
+# Last major update: removed catch-all * pattern for easier additions.
+
+# Temporary / editor files
+*~
+*.swp
 *.bak
+.*.swp
+
+# Build / cache directories (add only if you create these later)
+# node_modules/
+# .cache/
+# dist/
+
+# macOS / Windows junk (optional but harmless)
 .DS_Store
+Thumbs.db
+
+# Keep these lines commented or removed unless you really need them
+# *.log
+# *.tmp
