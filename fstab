@@ -13,7 +13,7 @@ UUID=9008f77f-3307-4f2c-99ee-2457b5322969  /  ext4  noatime,errors=remount-ro  0
 # Secondary Internal SSDs
 UUID=f829dd1f-ca41-4057-9b32-78fb8b2438aa /media/crome/data auto nosuid,nodev,nofail,x-gvfs-show 0 0
 
-# On-demand NFS shares (mountable by user via file manager or mount command)
+# On-demand NFS shares (mountable by user via file manager or mount command) 
 nas.local:/volume1/tera-a /media/crome/tera-a nfs _netdev,nofail,noauto,user,nosuid,nodev,noexec,x-systemd.device-timeout=15,x-systemd.idle-timeout=30min,vers=4 0 0
 nas.local:/volume2/tera-b /media/crome/tera-b nfs _netdev,nofail,noauto,user,nosuid,nodev,noexec,x-systemd.device-timeout=15,x-systemd.idle-timeout=30min,vers=4 0 0
 nas.local:/volume3/tera-c /media/crome/tera-c nfs _netdev,nofail,noauto,user,nosuid,nodev,noexec,x-systemd.device-timeout=15,x-systemd.idle-timeout=30min,vers=4 0 0
