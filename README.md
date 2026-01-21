@@ -35,6 +35,7 @@ This repository contains sanitized system files for reference:
 	- PROC           : Show a comprehensive visually structured overview of the entire prorcess hierarchy on the system
 	- PUBIP          : Shows my Public IP
 
+```bash
 ## Usage
 Copy files to your system with caution and adapt as needed.
 
