@@ -51,3 +51,6 @@ echo "set constantshow" >> ~/.config/nano/nanorc
 [
     "/home/crome/.wallpapers/1.jpg",
 ]
+
+# Keyboard Shortcuts:  Replace the "custom" file in the following path
+sudo nano ~/.config/cosmic/com.system76.CosmicSettings.Shortcuts/v1/custom
