@@ -1,0 +1,23 @@
+Name                                     Application ID                                                         Branch        Origin    Installation
+Discord                                  com.discordapp.Discord                                                 stable        flathub   user
+Protontricks                             com.github.Matoking.protontricks                                       stable        flathub   user
+Flatseal                                 com.github.tchx84.Flatseal                                             stable        flathub   user
+Logseq                                   com.logseq.Logseq                                                      stable        flathub   user
+VSCodium                                 com.vscodium.codium                                                    stable        flathub   user
+4KTUBE                                   com.warlordsoftwares.youtube-downloader-4ktube                         stable        flathub   user
+Yubico Authenticator                     com.yubico.yubioath                                                    stable        flathub   user
+Logo Menu                                dev.cappsy.CosmicExtAppletLogoMenu                                     master        cosmic    user
+Tweaks                                   dev.edfloreshz.CosmicTweaks                                            stable        flathub   user
+HandBrake                                fr.handbrake.ghb                                                       stable        flathub   user
+Camera                                   io.github.cosmic_utils.camera                                          stable        flathub   user
+Minimon                                  io.github.cosmic_utils.minimon-applet                                  master        cosmic    user
+ProtonUp-Qt                              net.davidotek.pupgui2                                                  stable        flathub   user
+MediaInfo                                net.mediaarea.MediaInfo                                                stable        flathub   user
+Resources                                net.nokyan.Resources                                                   stable        flathub   user
+Audacious                                org.atheme.audacious                                                   stable        flathub   user
+MKVToolNix                               org.bunkus.mkvtoolnix-gui                                              stable        flathub   user
+Flameshot                                org.flameshot.Flameshot                                                stable        flathub   user
+gamescope                                org.freedesktop.Platform.VulkanLayer.gamescope                         25.08         flathub   user
+Clock                                    org.kde.kclock                                                         stable        flathub   user
+Remmina                                  org.remmina.Remmina                                                    stable        flathub   user
+SpeedCrunch                              org.speedcrunch.SpeedCrunch                                            stable        flathub   user
