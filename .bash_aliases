@@ -1,4 +1,4 @@
-# New LS
+# New LS 
 alias ls='ls -a --color=auto --group-directories-first --time-style=long-iso'
 
 # keyboard speed up
