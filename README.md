@@ -8,6 +8,7 @@ This repository contains sanitized system files for reference:
 - authenticator-icons: Icons for authenticator apps
 - nanorc:  Adds line numbers to nano by default.  Copy the "nanorc" file to ~/.config/nano/
 - common_flatpaks: List of useful flatpaks
+- common_packages: List of system packages to install
 
 ## Usage
 Copy files to your system with caution and adapt as needed.
