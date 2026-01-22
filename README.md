@@ -48,7 +48,9 @@ echo "set linenumbers" > ~/.config/nano/nanorc
 echo "set constantshow" >> ~/.config/nano/nanorc
 
 # Custom Wallpapers:  Commit the "custom-images" file to the following file
-sudo nano ~/.config/cosmic/com.system76.CosmicSettings.Wallpaper/v1/custom-images
+cd ~/system-configs
+sudo cp ./custom-wallpapers/custom-images ~/.config/cosmic/com.system76.CosmicSettings.Wallpaper/v1/custom-images
 
 # Keyboard Shortcuts:  Commit the the "custom" file in the following file
-sudo nano ~/.config/cosmic/com.system76.CosmicSettings.Shortcuts/v1/custom
+cd ~/system-configs
+sudo cp ./custom-keyboard-shortcuts/custom ~/.config/cosmic/com.system76.CosmicSettings.Shortcuts/v1/custom
