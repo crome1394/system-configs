@@ -3,13 +3,14 @@
 This is used solely for MY use and is offered without warranty.  I am not responsible for any damages that might occur.   If for some reason you find this repository use at your OWN risk.  
 
 This repository contains sanitized system files for reference:
-- fstab: Filesystem table
-- hosts: Hosts file
-- cosmic-themes: Cosmic desktop themes
-- wallpapers: Background images
-- authenticator-icons: Icons for authenticator apps
+- fstab: My local Filesystem table
+- hosts: Hosts file sample
+- cosmic-themes: Cosmic desktop themes for Appearance & Terminal
+- wallpapers: My favorite background images
+- authenticator-icons: Icons for authenticator apps (Aegis based)
 - nanorc:  Adds line numbers to nano by default.  Copy the "nanorc" file to ~/.config/nano/
-- common_flatpaks: List of useful flatpaks
+- flatpaks_install.sh: Installs common flatpaks that I use
+- flatpak_app_list: List of useful flatpaks to be installed via the "flatpaks_install.sh" script
 - common_packages: List of system packages to install
 - sys_config.sh:  A script to automate the installation of many of the configs
 - bash_aliases:  a list of useful aliases and functions
