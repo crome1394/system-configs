@@ -11,6 +11,8 @@ This repository contains sanitized system files for reference:
 - nanorc:  Adds line numbers to nano by default.  Copy the "nanorc" file to ~/.config/nano/
 - flatpaks_install.sh: Installs common flatpaks that I use
 - flatpak_app_list: List of useful flatpaks to be installed via the "flatpaks_install.sh" script
+- apt_installs.sh:  A script to install frequently used system apps
+- apt_app_list:  List of useful system apps to be installed via the "apt_installs.sh" script
 - common_packages: List of system packages to install
 - sys_config.sh:  A script to automate the installation of many of the configs
 - bash_aliases:  a list of useful aliases and functions
