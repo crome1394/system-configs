@@ -1,5 +1,7 @@
 # System Configurations
 
+This is used solely for MY use and is offered without warranty.  I am not responsible for any damages that might occur.   If for some reason you find this repository use at your OWN risk.  
+
 This repository contains sanitized system files for reference:
 - fstab: Filesystem table
 - hosts: Hosts file
@@ -9,6 +11,7 @@ This repository contains sanitized system files for reference:
 - nanorc:  Adds line numbers to nano by default.  Copy the "nanorc" file to ~/.config/nano/
 - common_flatpaks: List of useful flatpaks
 - common_packages: List of system packages to install
+- sys_config.sh:  A script to automate the installation of many of the configs
 - bash_aliases:  a list of useful aliases and functions
 	- HELP           : Shows this help
 	- DSTATS         : Checking the size and number of files of a specific directory
