@@ -1,7 +1,9 @@
-sudo apt install bind9-dnsutils
-sudo apt install nfs-common
-sudo apt install pcscd
-sudo apt install mpv
+sudo apt install bind9-dnsutils		# Essential DNS lookup and diagnostic tools
+sudo apt install nfs-common		# NFS
+sudo apt install pcscd			# PC/SC Daemon
+sudo apt install mpv			# Movie Player
+sudo apt install nnn			# An extremely fast, minimal file manager TUI
+sudo apt install duf			# A modern, colorful disk usage viewer
 
 glow: https://github.com/charmbracelet/glow
 
