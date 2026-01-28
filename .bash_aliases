@@ -127,9 +127,9 @@ updateos() {
     echo "Commands that will run:"
     echo "  • sudo apt update"
     echo "  • sudo apt full-upgrade"
+    echo "  • sudo dpkg --configure -a"
     echo "  • sudo apt autoremove"
     echo "  • sudo apt autoclean"
-    echo "  • sudo dpkg --configure -a"
     echo "  • flatpak update"
     echo "  • fwupdmgr firmware refresh & update (if available)"
     echo "────────────────────────────────────────────────────────────────────────────────────────────────────────────────"
@@ -160,7 +160,16 @@ updateos() {
     fi
     echo ""
 
-    # 3. apt autoremove
+    # 3. dpkg --configure -a (fixes interrupted/broken package configurations)
+    echo "→ Running: sudo dpkg --configure -a"
+    if sudo dpkg --configure -a; then
+        echo "✔ Fixed any pending package configurations"
+    else
+        echo "✘ dpkg configure failed – serious issue, investigate manually (look at output above)"
+    fi
+    echo ""
+
+    # 4. apt autoremove
     echo "→ Running: sudo apt autoremove"
     if sudo apt autoremove; then
         echo "✔ Removed unnecessary packages"
@@ -169,7 +178,7 @@ updateos() {
     fi
     echo ""
 
-    # 4. apt autoclean
+    # 5. apt autoclean
     echo "→ Running: sudo apt autoclean"
     if sudo apt autoclean; then
         echo "✔ Cleared old downloaded package cache"
@@ -178,14 +187,6 @@ updateos() {
     fi
     echo ""
 
-    # 5. dpkg --configure -a (fixes interrupted/broken package configurations)
-    echo "→ Running: sudo dpkg --configure -a"
-    if sudo dpkg --configure -a; then
-        echo "✔ Fixed any pending package configurations"
-    else
-        echo "✘ dpkg configure failed – serious issue, investigate manually (look at output above)"
-    fi
-    echo ""
 
     # 6. flatpak update (non-sudo, but may ask for password if needed for some remotes)
     if command -v flatpak >/dev/null 2>&1; then
