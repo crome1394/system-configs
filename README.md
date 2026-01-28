@@ -7,6 +7,7 @@ This repository contains sanitized system files for reference:
 - hosts: Hosts file sample
 - cosmic-themes: Cosmic desktop themes for Appearance & Terminal
 - wallpapers: My favorite background images
+- An internal  brave App .desktop file for Grok
 - authenticator-icons: Icons for authenticator apps (Aegis based)
 - nanorc:  Adds line numbers to nano by default.  Copy the "nanorc" file to ~/.config/nano/
 - flatpaks_install.sh: Installs common flatpaks that I use
