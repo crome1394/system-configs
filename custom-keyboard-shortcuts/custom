@@ -1,40 +1,6 @@
 {
     (
         modifiers: [
-            Super,
-        ],
-        key: "d",
-    ): System(WorkspaceOverview),
-    (
-        modifiers: [
-            Ctrl,
-            Alt,
-        ],
-        key: "Up",
-    ): System(VolumeRaise),
-    (
-        modifiers: [
-            Ctrl,
-            Alt,
-        ],
-        key: "Down",
-    ): System(VolumeLower),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "Scroll_Lock",
-        description: Some("cosmic-settings about"),
-    ): Spawn("cosmic-settings about"),
-    (
-        modifiers: [
-            Ctrl,
-        ],
-        key: "Print",
-        description: Some("flameshot"),
-    ): Spawn("flatpak run org.flameshot.Flameshot gui"),
-    (
-        modifiers: [
             Shift,
         ],
         key: "Print",
@@ -44,7 +10,48 @@
         modifiers: [
             Super,
         ],
+        key: "d",
+    ): System(WorkspaceOverview),
+    (
+        modifiers: [
+            Ctrl,
+            Alt,
+        ],
+        key: "Down",
+    ): System(VolumeLower),
+    (
+        modifiers: [
+            Ctrl,
+            Shift,
+        ],
+        key: "e",
+    ): ToggleSticky,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "Scroll_Lock",
+        description: Some("cosmic-settings about"),
+    ): Spawn("cosmic-settings about"),
+    (
+        modifiers: [
+            Super,
+        ],
         key: "c",
         description: Some("SpeedCrunch"),
     ): Spawn("flatpak run org.speedcrunch.SpeedCrunch"),
+    (
+        modifiers: [
+            Ctrl,
+        ],
+        key: "Print",
+        description: Some("flameshot"),
+    ): Spawn("flatpak run org.flameshot.Flameshot gui"),
+    (
+        modifiers: [
+            Ctrl,
+            Alt,
+        ],
+        key: "Up",
+    ): System(VolumeRaise),
 }
