@@ -41,5 +41,9 @@ echo "→ replaces the keyboard custom file my favorite keyboard shortcuts"
 echo ""
 sudo cp --preserve=all ~/system-configs/custom-keyboard-shortcuts/custom ~/.config/cosmic/com.system76.CosmicSettings.Shortcuts/v1/custom
 
+# Copies my favorite minimon config
+sudo cp -R --preserve=all ~/system-configs/minimon/io.github.cosmic_utils.minimon-applet-panel/ /home/crome/.config/
+
 # launches the system-configs github in firefox
 firefox https://github.com/crome1394/system-configs & 
+
