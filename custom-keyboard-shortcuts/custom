@@ -1,19 +1,6 @@
 {
     (
         modifiers: [
-            Shift,
-        ],
-        key: "Print",
-        description: Some("flameshot"),
-    ): Spawn("flatpak run org.flameshot.Flameshot gui"),
-    (
-        modifiers: [
-            Super,
-        ],
-        key: "d",
-    ): System(WorkspaceOverview),
-    (
-        modifiers: [
             Ctrl,
             Alt,
         ],
@@ -21,11 +8,11 @@
     ): System(VolumeLower),
     (
         modifiers: [
-            Ctrl,
-            Shift,
+            Super,
         ],
-        key: "e",
-    ): ToggleSticky,
+        key: "c",
+        description: Some("SpeedCrunch"),
+    ): Spawn("flatpak run org.speedcrunch.SpeedCrunch"),
     (
         modifiers: [
             Super,
@@ -36,10 +23,35 @@
     (
         modifiers: [
             Super,
+            Ctrl,
+            Alt,
         ],
-        key: "c",
-        description: Some("SpeedCrunch"),
-    ): Spawn("flatpak run org.speedcrunch.SpeedCrunch"),
+        key: "r",
+        description: Some("Reboot"),
+    ): Spawn("reboot"),
+    (
+        modifiers: [
+            Ctrl,
+            Shift,
+        ],
+        key: "e",
+    ): ToggleSticky,
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "p",
+        description: Some("Power off"),
+    ): Spawn("shutdown now"),
+    (
+        modifiers: [
+            Shift,
+        ],
+        key: "Print",
+        description: Some("flameshot"),
+    ): Spawn("flatpak run org.flameshot.Flameshot gui"),
     (
         modifiers: [
             Ctrl,
@@ -49,9 +61,43 @@
     ): Spawn("flatpak run org.flameshot.Flameshot gui"),
     (
         modifiers: [
+            Super,
+        ],
+    ): System(Launcher),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "v",
+        description: Some("Clipboard History"),
+    ): Spawn("win11-clipboard-history"),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "d",
+    ): System(WorkspaceOverview),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "period",
+        description: Some("Emoji Picker"),
+    ): Spawn("win11-clipboard-history --emoji"),
+    (
+        modifiers: [
             Ctrl,
             Alt,
         ],
         key: "Up",
     ): System(VolumeRaise),
+    (
+        modifiers: [
+            Super,
+            Ctrl,
+            Alt,
+        ],
+        key: "a",
+        description: Some("Yubico Authenticator"),
+    ): Spawn("flatpak run com.yubico.yubioath"),
 }
