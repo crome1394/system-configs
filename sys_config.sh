@@ -24,12 +24,12 @@ echo ""
 source ~/.bash_aliases
 
 # Updates nano to automatically add line numbers and make them constantly show
-echo "→ Updated nano to always show line numbers"
-echo ""
-mkdir ~/.config/nano
-echo "set linenumbers" > ~/.config/nano/nanorc
-echo "set constantshow" >> ~/.config/nano/nanorc
-echo ""
+#echo "→ Updated nano to always show line numbers"
+#echo ""
+#mkdir ~/.config/nano
+#echo "set linenumbers" > ~/.config/nano/nanorc
+#echo "set constantshow" >> ~/.config/nano/nanorc
+#echo ""
 
 # Replaces or creates the custom-images file adding wallpapers to cosmic-settings
 echo "→ Replaces the custom-images with my favorite wallpapers"
