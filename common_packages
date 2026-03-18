@@ -5,7 +5,7 @@ sudo apt install mpv			# Movie Player
 sudo apt install nnn			# An extremely fast, minimal file manager TUI
 sudo apt install duf			# A modern, colorful disk usage viewer
 sudo apt install lazpaint-qt5		# A simple paint program
-
+sudo apt install exfatprogs		# Added support for exFat
 
 
 glow: https://github.com/charmbracelet/glow
