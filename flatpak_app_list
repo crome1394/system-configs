@@ -8,7 +8,7 @@ dev.edfloreshz.CosmicTweaks
 fr.handbrake.ghb
 io.github.cosmic_utils.camera
 net.mediaarea.MediaInfo
-net.nokyan.Resources
+#net.nokyan.Resources
 org.atheme.audacious
 org.bunkus.mkvtoolnix-gui
 org.flameshot.Flameshot
@@ -20,3 +20,4 @@ org.telegram.desktop
 io.github.nikelaz.CTLDash
 io.github.cosmic_utils.minimon-applet
 com.github.wwmm.easyeffects
+vn.hoabinh.quan.CoBang
